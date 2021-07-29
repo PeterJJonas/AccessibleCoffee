@@ -1,0 +1,86 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: #61543B;
+}
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  color: #614B1E;
+  /* -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; */
+}
+
+.accessibleSide {
+  background-color: #E6DFD1;
+  width: 70%;
+  border-top-left-radius: 500px;
+
+}
+
+.coffeeSide {
+  background-color: #E0C388;
+  width: 30%;
+}
+
+.mainText {
+  margin: 20px 20px 0 30%;
+  height: 100%;
+  text-align: right;
+}
+
+.navText {
+  margin: 160px 0 30% 20px;
+  height: 100%;
+  text-align: left;
+
+}
+
+.logoContainer {
+  /* display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #614B1E;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  margin: 0; */
+  /* justify-content: space-around; */
+}
+
+.logoAccessible, .logoCoffee {
+  font-size: 60px;
+  margin: 0px;
+}
+
+.logoAccessible {
+  /* background-color: yellow; */
+  color: #E0C388;
+  text-align: right;
+
+}
+
+.logoCoffee {
+  /* background-color: red; */
+  color: #E6DFD1;
+  position: relative;
+  left: 100%;
+}
