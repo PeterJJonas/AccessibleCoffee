@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 html,
 body {
   margin: 0;
   padding: 0;
   height: 100%;
+  width: 100%;
   background-color: #61543B;
+  font-family: 'Cabin', sans-serif;
+  line-height: 1.5;
 }
 
 .container {
@@ -11,61 +16,93 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   height: 100%;
-  color: #614B1E;
-  position: fixed;
+}
+
+.cureveSide {
+  background-color: #E6DFD1;
+  color: #61543B;
+  width: 20%;
+  height: 100%;
+  border-top-left-radius: 500px;
+}
+
+.infoSide {
+  width: 80%;
+  height: 100%;
+  background-color: #E6DFD1;
 }
 
 .logoContainer {
-  margin: 10px 0 0 0 ;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 15%;
 }
 
 .logoAccessible, .logoCoffee {
   font-size: 60px;
-  margin: 0 20px;
 }
 
 .logoAccessible {
   color: #61543B;
+  width: 70%;
   text-align: right;
-  width: auto;
+  padding-top: 20px;
+}
+
+.logoAccessibleText {
+  padding-right: 15px;
 }
 
 .logoCoffee {
   color: #E6DFD1;
-  position: relative;
-  left: 100%;
-  width: auto;
-}
-
-.accessibleSide {
-  background-color: #E6DFD1;
-  color: #61543B;
-  width: 70%;
-  border-top-left-radius: 500px;
-  position: static;
-}
-
-.coffeeSide {
   background-color: #61543B;
-  color: #E6DFD1;
+  padding-top: 70px;
   width: 30%;
 }
 
-.mainText {
-  margin: 30px -10px 0 30%;
-  padding-right: 20px;
-  position: static;
-  height: 70%;
-  overflow-x: hidden;
+.logoCoffeeText {
+  padding-left: 15px;
+}
+
+.textContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 85%;
+}
+
+.accessibleSide, .coffeeSide {
+  font-size: 24px;
+}
+
+.accessibleSide {
+  color: #61543B;
+  width: 70%;
   text-align: right;
+  overflow-x: hidden;
+}
+
+.coffeeSide {
+  color: #E6DFD1;
+  background-color: #61543B;
+  width: 30%;
+  height: 100%;
+}
+
+.mainText, .navText {
+  padding-top: 30px;
+}
+
+.mainText {
+  padding-right: 15px;
+  padding-bottom: 30px;
 }
 
 .navText {
-  margin: 180px 0 30% 20px;
-  text-align: left;
+  padding-left: 15px;
 }
