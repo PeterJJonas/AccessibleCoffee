@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+:root {
+  --main-color: #E6DFD1;
+  --complement-color: #61543B;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
-  background-color: #61543B;
+  background-color: var(--complement-color);
   font-family: 'Cabin', sans-serif;
   line-height: 1.5;
 }
@@ -20,8 +25,8 @@ body {
 }
 
 .cureveSide {
-  background-color: #E6DFD1;
-  color: #61543B;
+  background-color: var(--main-color);
+  color: var(--complement-color);
   width: 20%;
   height: 100%;
   border-top-left-radius: 500px;
@@ -30,7 +35,7 @@ body {
 .infoSide {
   width: 80%;
   height: 100%;
-  background-color: #E6DFD1;
+  background-color: var(--main-color);
 }
 
 .logoContainer {
@@ -46,7 +51,7 @@ body {
 }
 
 .logoAccessible {
-  color: #61543B;
+  color: var(--complement-color);
   width: 70%;
   text-align: right;
   padding-top: 20px;
@@ -57,8 +62,8 @@ body {
 }
 
 .logoCoffee {
-  color: #E6DFD1;
-  background-color: #61543B;
+  color: var(--main-color);
+  background-color: var(--complement-color);
   padding-top: 70px;
   width: 30%;
 }
@@ -81,15 +86,15 @@ body {
 }
 
 .accessibleSide {
-  color: #61543B;
+  color: var(--complement-color);
   width: 70%;
   text-align: right;
   overflow-x: hidden;
 }
 
 .coffeeSide {
-  color: #E6DFD1;
-  background-color: #61543B;
+  color: var(--main-color);
+  background-color: var(--complement-color);
   width: 30%;
   height: 100%;
 }
