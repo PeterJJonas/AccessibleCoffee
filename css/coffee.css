@@ -12,6 +12,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: var(--complement-color);
+  color: var(--main-color);
   font-family: 'Cabin', sans-serif;
   line-height: 1.5;
 }
@@ -44,6 +45,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   height: 15%;
+  min-height: 160px;
 }
 
 .logoAccessible, .logoCoffee {
@@ -62,7 +64,6 @@ body {
 }
 
 .logoCoffee {
-  color: var(--main-color);
   background-color: var(--complement-color);
   padding-top: 70px;
   width: 30%;
@@ -93,7 +94,6 @@ body {
 }
 
 .coffeeSide {
-  color: var(--main-color);
   background-color: var(--complement-color);
   width: 30%;
   height: 100%;
