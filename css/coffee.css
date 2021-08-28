@@ -35,6 +35,7 @@ a {
   color: var(--main-color);
   text-decoration: none;
   border: 1px solid;
+  border-radius: 7px;
   padding: 0 3px;
 
 }
